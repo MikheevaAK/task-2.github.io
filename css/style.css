@@ -1,0 +1,153 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  margin: 0 auto;
+  width: 1440px;
+  font-family: "OpenSans", sans-serif;
+  background-color: #fff;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 38px;
+}
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.section__title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 54.47px;
+  color: #000;
+}
+
+/* top */
+
+.section__top {
+  padding-top: 60px;
+  padding-bottom: 40px;
+  background-color: #FFF6ED;
+}
+
+.section__top-title {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.section__top-list {
+  display: flex;
+}
+
+.section__top-item:not(:last-child) {
+  margin-right: 100px;
+}
+
+.section__item-img {
+  margin-bottom: 21px;
+  max-width: 375px;
+  max-height: 288px;
+}
+
+.section__item-title {
+  margin: 0;
+  margin-bottom: 6px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40.85px;
+  color: #000;
+}
+
+.section__item-title--color {
+  color: #FF7A00;
+}
+
+.section__item-descr {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #000;
+}
+
+/* bottom */
+
+.section__bottom {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  background-image: url(../Frame-1.svg);
+  background-position: top 24px right 170px;
+  background-repeat: no-repeat;
+  background-size: auto auto;
+}
+
+.container__section-bottom {
+  display: flex;
+}
+
+.section__bottom-left {
+  margin-right: 183px;
+  max-width: 44.6%;
+}
+
+.section__bottom-title {
+  margin-bottom: 11px;
+}
+
+.section__bottom-desct {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color:#000;
+}
+
+.section__bottom-right {
+  max-width: 42.5%;
+  padding-top: 34px;
+}
+
+.section__bottom-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 170px;
+  justify-content: center;
+  align-content: space-between;
+}
+
+.section__bottom-item {
+  width: 70px;
+  height: 70px;
+}
+
+.section__bottom-item:not(:nth-child(4n)) {
+  margin-right: 90px;
+}
+
+.section__bottom-item:last-child {
+  margin-right: 0;
+}
+
+
+
+
